@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Praise&family=Yuji+Mai&display=swap");
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100vw;
+  padding-top: 20px;
+  height: 100vh;
+}
+body {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.recipe-box {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Recipes {
+  text-align: center;
+  flex-basis: 400px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.35);
+  margin-bottom: 50px;
+  gap: 40px;
+  padding: 0 10px;
+  background-color: white;
+}
+
+.Recipes h1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  font-family: "Yuji Mai", serif;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.Recipes p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Recipes img {
+  border-radius: 50%;
+  height: 200px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35);
+  width: 200px;
+}
+
+#search-input {
+  height: 50px;
+  width: 40%;
+  border: none;
+  padding-left: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+#search-btn {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  height: 50px;
+  border: none;
+  width: 80px;
+}
+
+.form {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.ingredients {
+  list-style: none;
+}
